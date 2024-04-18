@@ -1,0 +1,25 @@
+// product-card.scss
+
+// Estilos para la tarjeta de producto
+.product-card {
+    //border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+    
+  
+    &:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  // Estilos para el cuerpo de la tarjeta de producto
+  .product-card-body {
+    padding: 20px;
+  }
+  
+  // Estilos para el título de la tarjeta de producto
+  .product-card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

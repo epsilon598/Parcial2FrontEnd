@@ -1,0 +1,9 @@
+// product-list.scss
+
+// Estilos para el contenedor de la lista de productos
+.product-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  

@@ -1,0 +1,61 @@
+.search-bar{
+    min-width: 70%;
+}
+
+// front-page.scss
+
+.front-page-container {
+  max-width: 400px;
+  margin: auto; /* Centra horizontalmente */
+  margin-top: 50vh; /* Centra verticalmente */
+  transform: translateY(-50%);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.table-container {
+  margin-bottom: 20px; /* Espacio entre la tabla y la lista de productos */
+}
+
+/* Estilos para la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  border-top: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Estilos para el botón de registrar producto */
+.registrar-producto-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.registrar-producto-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el enlace de registro */
+.registrar-link {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.registrar-link:hover {
+  text-decoration: underline;
+}

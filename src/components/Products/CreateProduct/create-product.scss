@@ -1,0 +1,42 @@
+// create-product.scss
+
+// Estilos para el contenedor del formulario
+.create-product-container {
+  max-width: 400px;
+  margin: auto; /* Centra horizontalmente */
+  margin-top: 50vh; /* Centra verticalmente */
+  transform: translateY(-50%);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  }
+  
+  // Estilos para el grid
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  
+  // Estilos para los items del grid
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  // Estilos para el campo de entrada
+  .input-field {
+    margin-bottom: 15px;
+  }
+  
+  // Estilos para el botón de registro
+  .register-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
